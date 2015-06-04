@@ -1,6 +1,6 @@
 require 'sinatra'
 
 get '/' do
-  @page_title = 'Carpenter'
+  @page_title = ''
   haml :index
 end
